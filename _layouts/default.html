@@ -2,17 +2,26 @@
 <html>
 
 <head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>{{ page.title }}</title>
-	<link rel="stylesheet" type="text/css" href="/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
 </head>
 
 <body>
-	<div id="page">
-		<div id="header">
-			<h1>{{ page.title }}</h1>
+	<div class="site">
+		<div class="title">
+			<a href="/">Peter Short</a>
+			<a class="extra" href="/">home</a>
 		</div>
-		<div id="content">
-			{{ content }}
+		{{ content }}
+		<div class="footer">
+			<div class="contact">
+			  <p>
+				Peter Short<br />
+				peter.short@gmail.com
+			  </p>
+			</div>
 		</div>
+		
 	</div>
 </body>
