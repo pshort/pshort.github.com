@@ -44,6 +44,4 @@ These are the game logic dlls and one other
 - Game-d3xp : The Doom 3 expansion dll. This seems to be a superset of the Game dll with the expansion stuff added. (I unloaded this project)
 - MayaImport : A tool written to import maya resources into the doom 3 formats. (I use blender for 3d so, unloaded...)
 
-## Building the code
-
-Working on it :)
+Next step -> Building the code!!!
