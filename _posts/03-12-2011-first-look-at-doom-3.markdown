@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First look at doom 3
+title: First look at the doom 3 source
 ---
 
 
