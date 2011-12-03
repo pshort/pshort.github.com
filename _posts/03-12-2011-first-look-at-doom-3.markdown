@@ -24,19 +24,22 @@ As a C# programmer by trade the fact that I use Visual Studio meant getting this
 
 - **libs** : This contains 2 projects:
 
-    * **idLib** : A general purpose C++ lib made by Id. It seems to handle a lot of the same things you would find in the stl, like containers. It also has facilities for math, geometry, text parsing and bounding volumes.
-    * **CurlLib** : This seems to be a copy of the curl library. Curl is a library that allows you to do data transfer over various protocols like http.
+    - **idLib** : A general purpose C++ lib made by Id. It seems to handle a lot of the same things you would find in the stl, like containers. It also has facilities for math, geometry, text parsing and bounding volumes.
+	
+    - **CurlLib** : This seems to be a copy of the curl library. Curl is a library that allows you to do data transfer over various protocols like http.
 	
 - **exes** : These are the projects that produce executables
 
-    * **DoomDLL** : This project contains the entry point for the game and a lot of the framework for the engine. This will be what you run to debug etc.
-    * **TypeInfo** : This executable seems to parse the source code of the game and create a header file that contains all the constants and classes etc it finds in those files. This header is used in the game dll it seems. (Still looking into this and why its done)
-
+    - **DoomDLL** : This project contains the entry point for the game and a lot of the framework for the engine. This will be what you run to debug etc.
+	
+    - **TypeInfo** : This executable seems to parse the source code of the game and create a header file that contains all the constants and classes etc it finds in those files. This header is used in the game dll it seems. (Still looking into this and why its done)
 
 - **dlls** : These are the game logic dlls and one other
 
-    *	**Game** : Doom 3 :D Contains the definitions for the game entities, animations, AI and other goodness.
-    * **Game-d3xp** : The Doom 3 expansion dll. This seems to be a superset of the Game dll with the expansion stuff added. (I unloaded this project)
-    * **MayaImport** : A tool written to import maya resources into the doom 3 formats. (I use blender for 3d so, unloaded...)
+    - **Game** : Doom 3 :D Contains the definitions for the game entities, animations, AI and other goodness.
+	
+    - **Game-d3xp** : The Doom 3 expansion dll. This seems to be a superset of the Game dll with the expansion stuff added. (I unloaded this project)
+	
+    - **MayaImport** : A tool written to import maya resources into the doom 3 formats. (I use blender for 3d so, unloaded...)
 
 Next step? Build the code!!!
