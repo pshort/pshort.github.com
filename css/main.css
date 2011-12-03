@@ -32,6 +32,11 @@ h1 {
   color: #787878;
 }
 
+h3 {
+  font-size: 0.9em;
+  text-decoration: underline;
+}
+
 p {
   margin: 1em 0;
 }
