@@ -14,4 +14,7 @@ You can imagine my delight then when the code for Doom 3 was finally made open s
 - Play with the game code a little to see how it works
 - Understand as much as possible about the architecture of the engine
 
+
 ## Downloading the code
+
+Downloading the code is pretty simple. The code was released into github and the original release can be found in [TTimos' Doom 3 repository](https://github.com/TTimo/doom3.gpl "Doom 3 repository").
