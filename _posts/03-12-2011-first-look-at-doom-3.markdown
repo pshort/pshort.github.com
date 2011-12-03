@@ -3,6 +3,8 @@ layout: post
 title: First look at doom 3
 ---
 
+
+
 ## Why am I doing this?
 
 I have always had an interest in reading code bases in languages that I don't use very often. C and C++ codebases are particular among these because they are languages I studied in school but never really used professionally and I always find it interesting to see what real world C and C++ looks like. I have also always had an interest in games and most of the games I love are written in C or C++ due to performance of the language when using Open-GL or DirectX.
